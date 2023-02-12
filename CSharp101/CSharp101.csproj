@@ -1,0 +1,26 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>net6.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Compile Remove="Program3.cs" />
+    <Compile Remove="Test.cs" />
+    <Compile Remove="Test2.cs" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Include="Program3.cs" />
+    <None Include="Test.cs" />
+    <None Include="Test2.cs" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Selenium.WebDriver" Version="4.8.0" />
+  </ItemGroup>
+
+</Project>
