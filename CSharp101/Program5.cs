@@ -35,13 +35,14 @@ for (int i = 0; i < arr.Length; i++)
         //Console.WriteLine(arr[i]);
 
         Console.WriteLine("Match found");
+        break;
     }
-    else
-    {
+    //else
+    //{
         //Console.WriteLine(arr[i]);
 
-        Console.WriteLine("No match found");
-    }
+        //Console.WriteLine("No match found");
+    //}
 
 };
 
